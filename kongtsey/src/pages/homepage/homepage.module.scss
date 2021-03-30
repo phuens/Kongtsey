@@ -1,0 +1,18 @@
+$compartment-padding: 10px; // padding betw the navbar and the homepage info
+
+.root {
+    flex-grow: 1;
+}
+
+// drawer navbar
+.navbar {
+    height: 100vh;
+    min-height: 700px;
+    background: red;
+}
+
+// main homepage content
+.homepage_info {
+    padding: $compartment-padding;
+
+}
