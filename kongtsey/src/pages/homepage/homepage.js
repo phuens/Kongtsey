@@ -6,7 +6,7 @@ import Navbar from '../../common/navbar/navbar';
 import Button from '@material-ui/core/Button';
 import Authentication from '../../features/authentication/authentication';
 
-function Homepage(props) {
+function Homepage() {
     const [auth, setAuth] = useState(false);
     const [authShow, setAuthShow] = useState('');
 

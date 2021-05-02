@@ -49,5 +49,5 @@ export default function Authentication({ toggleAuth, type }) {
             </form>
         );
     }
-    return <span></span>;
+    return;
 }
